@@ -201,9 +201,22 @@ h1, h2, p { margin: 0; }
   font-weight: 500;
   line-height: 1.15;
 }
+.couple-names .name-block {
+  display: block;
+}
 .couple-names .name {
   display: block;
   font-size: clamp(2.1rem, 8vw, 2.9rem);
+}
+.couple-names .parentage {
+  display: block;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--charcoal-soft);
+  margin-top: 0.35rem;
 }
 .couple-names .amp {
   display: block;
@@ -525,8 +538,23 @@ h1, h2, p { margin: 0; }
   margin: 0 0.3em;
 }
 
-.closing-date {
+.closing-parentage {
   margin-top: 0.6rem;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--charcoal-soft);
+}
+.closing-parentage .amp {
+  color: var(--gold);
+  font-style: italic;
+  margin: 0 0.3em;
+  text-transform: none;
+}
+
+.closing-date {
+  margin-top: 0.8rem;
   letter-spacing: 0.1em;
   color: var(--charcoal-soft);
   font-size: 0.9rem;
